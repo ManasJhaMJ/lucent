@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-    font-family: 'Against';
-    src: url('../../assets/against/against\ regular.ttf') format('opentype');
+    font-family: Against;
+    src: url(/src/assets/fonts/against/against\ regular.otf) format('opentype');
 }
 
 #landing {
