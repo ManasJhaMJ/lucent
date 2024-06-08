@@ -5,6 +5,7 @@ function Clients() {
 
         <section id='clients'>
             <img src={secondhalf} alt="" className='second-half' />
+
         </section>
     )
 }

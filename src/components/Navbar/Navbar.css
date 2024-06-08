@@ -38,3 +38,17 @@ nav a {
     justify-content: space-evenly;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 90%;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+
+}
