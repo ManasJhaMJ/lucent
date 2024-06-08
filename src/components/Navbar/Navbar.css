@@ -27,16 +27,31 @@ nav a {
     align-items: center;
     padding: 1.5rem 2rem;
     width: 70%;
-    background-color: #0B0121;
+    background-color: transparent;
     box-shadow: 0px 0px 15px #000;
     color: #ececec;
     border-radius: 40px;
+}
+
+.colorChange {
+    /* background-color: #0B0121; */
+    backdrop-filter: blur(15px);
+    transition: 0.3s;
 }
 
 .links {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.active {
+    color: #ececec;
+    font-weight: bold;
+}
+
+.non-active {
+    color: #ececec;
 }
 
 @media screen and (max-width: 768px) {

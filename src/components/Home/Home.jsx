@@ -1,13 +1,15 @@
 import './Home.css'
 import Landing from './Landing'
 import Clients from './Clients'
+import Services from './Services'
 
 
 function Home() {
     return (
         <>
             <Landing />
-            <Clients />
+            <Services />
+            {/* <Clients /> */}
         </>
     )
 }
