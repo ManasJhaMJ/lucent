@@ -1,6 +1,10 @@
+import './Footer.css'
+
 function Footer() {
     return (
-        <div>Footer</div>
+        <section id='footer'>
+            Copyright 2024 @Lucent Studios
+        </section>
     )
 }
 

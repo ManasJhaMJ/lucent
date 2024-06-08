@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Against';
+    src: url('/src/assets/against/against\ regular.ttf') format('opentype');
+}
+
+#landing {
+    background: url('/src/assets/bg.png');
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #ececec;
+    text-align: center;
+}
+
+#landing h1 {
+    font-family: 'Against', sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+    /* background: linear-gradient(146deg, #ECECEC 20.35%, rgba(236, 236, 236, 0.00) 128.73%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #ECECEC;
+    margin: 0;
+    text-shadow: 0px 0px 20.8px #FFF;
+    z-index: 2;
+}
+
+#landing h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    font-weight: 500;
+    text-shadow: 0px 0px 20.8px #FFF;
+    background: linear-gradient(146deg, #ECECEC 20.35%, rgba(236, 236, 236, 0.00) 128.73%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+#landing button {
+    background: linear-gradient(93deg, rgba(151, 95, 95, 0.94) 0.48%, rgba(88, 59, 169, 0.94) 100%);
+    border: none;
+    color: #ececec;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2 !important;
+}
+
+#landing button:hover {
+    box-shadow: 0px 0px 20px #FFF;
+}
+
+.landing-balls1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    animation: down-up 4s infinite;
+}
+
+.landing-balls2 {
+    position: absolute;
+    top: 36%;
+    right: 5%;
+    animation: up-down 4s infinite;
+}
+
+.landing-balls3 {
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    animation: up-down 4s infinite;
+}
+
+@keyframes down-up {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.first-half {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
