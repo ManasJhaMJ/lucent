@@ -9,7 +9,7 @@ function Home() {
         <>
             <Landing />
             <Services />
-            {/* <Clients /> */}
+            <Clients />
         </>
     )
 }

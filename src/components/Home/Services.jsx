@@ -1,6 +1,6 @@
 import './services.css'
 import secondhalf from '../../assets/secondhalf.png'
-import bottomhalf from '../../assets/bottomhalf.svg'
+import bottomhalf from '../../assets/firsthalf.png'
 import { Link } from 'react-router-dom'
 
 import one from '../../assets/services/1.svg'
@@ -22,7 +22,7 @@ function Services() {
                     <div className='points'>
                         <span className="point">
                             <img src={tick} alt="" />
-                            <p>100% Responsive</p>
+                            <p>Mobile optimization</p>
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
@@ -56,19 +56,19 @@ function Services() {
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
-                            <p>SEO Friendly</p>
+                            <p>High Quality</p>
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
-                            <p>Fast Loading</p>
+                            <p>Competitive Pricing</p>
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
-                            <p>Creative Designs</p>
+                            <p>Brand Solutions</p>
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
-                            <p>Fast & Secure</p>
+                            <p>Timely Communication</p>
                         </span>
                     </div>
                     <Link to='/work' className='btn'>
@@ -91,7 +91,7 @@ function Services() {
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
-                            <p>Fast Loading</p>
+                            <p>User-friendly UI</p>
                         </span>
                         <span className="point">
                             <img src={tick} alt="" />
