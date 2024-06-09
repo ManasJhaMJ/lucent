@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cobe": "^0.6.3",
     "react": "^18.2.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "react-visibility-sensor": "^5.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
