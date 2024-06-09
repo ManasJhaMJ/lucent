@@ -2,7 +2,8 @@
 
 @font-face {
     font-family: Against;
-    src: url(/src/assets/fonts/against/against\ regular.otf) format('opentype');
+    src: url(/src/assets/fonts/against/against-regular.otf) format('opentype');
+    /* src: url(/src/assets/fonts/against/against-regular.woff) format('woff'); */
 }
 
 #landing {
