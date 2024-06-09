@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: Against;
+    src: url(/src/assets/fonts/against/against-regular.otf) format('opentype');
+    /* src: url(/src/assets/fonts/against/against-regular.woff) format('woff'); */
+}
+
+canvas {
+    height: 500px;
+    width: 500px;
+    max-Height: 100%;
+    max-Width: 100%;
+    aspect-ratio: 1;
+}
+
+#clients {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#clients h1 {
+    font-size: 3rem;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.upper-half {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.globe-container {
+    position: relative;
+    z-index: 1;
+    min-width: 500px;
+}
+
+.client-texts p {
+    margin: 0;
+}
+
+.client-texts {
+    z-index: 2;
+}
+
+.clients-num {
+    background: linear-gradient(93deg, #FF9898 0.48%, #8054FF 100%);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.6rem;
+}
+
+.client-text {
+    height: fit-content;
+    padding: 1rem 2rem;
+}
+
+.client-pos {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+
+.projects-pos {
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+}
+
+.companies {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.companies span {
+    background: #11042f;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.5rem;
+    width: fit-content;
+    font-family: 'Against', sans-serif;
+    color: #3B3B42;
+    font-size: 1.3rem;
+    font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.companies span:hover {
+    color: #ececec;
+    background: linear-gradient(93deg, #FF9898 0.48%, #8054FF 100%);
+}
+
+@media only screen and (max-width: 770px) {
+    canvas {
+        height: 300px;
+        width: 300px;
+    }
+
+    #clients {
+        padding: 5rem 1rem;
+    }
+
+    .globe-container {
+        margin-top: 4rem;
+        min-width: 100%;
+    }
+
+    .client-text {
+        padding: 1rem;
+    }
+
+    .clients-num {
+        font-size: 1.2rem;
+    }
+
+    .clients {
+        flex-direction: column;
+    }
+
+    .client-pos {
+        top: 0;
+        transform: translate(30%, 0);
+    }
+
+    .projects-pos {
+        bottom: 0;
+        transform: translate(-30%, 0);
+    }
+
+    .companies {
+        justify-content: center;
+    }
+}
