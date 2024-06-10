@@ -3,6 +3,7 @@ import Landing from './Landing'
 import About from './About'
 import Clients from './Clients'
 import Services from './Services'
+import Testimonials from './Testimonials'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
             <About />
             <Services />
             <Clients />
+            <Testimonials />
         </>
     )
 }

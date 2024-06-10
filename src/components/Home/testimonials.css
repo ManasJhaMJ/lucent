@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.gradient-text {
+    background: linear-gradient(93deg, #FF9898 0.48%, #8054FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#testimonials {
+    min-height: 50vh;
+    max-height: max-content;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+#testimonials h1 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+    background: #11042f;
+    text-align: left;
+}
+
+.reviews h2 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.reviews p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.review-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.review-lower div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #9E9E9E;
+}
+
+.reviews img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 0.3rem;
+}
+
+.splide__list li {
+    width: 35% !important;
+}
+
+.splide__arrow {
+    background: #18181C;
+}
+
+.splide {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.splide__pagination {
+    bottom: -1rem !important;
+}
+
+.splide__pagination__page.is-active {
+    background: linear-gradient(93deg, #FF9898 0.48%, #8054FF 100%) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .splide__list li {
+        width: 80% !important;
+    }
+
+    .reviews {
+        padding: 1rem;
+    }
+
+    .reviews img {
+        width: 35px;
+        height: 35px;
+    }
+}
