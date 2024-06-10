@@ -11,7 +11,7 @@ function Clients() {
 
         <section id='clients'>
             <img src={upperhalf} alt="" className='upper-half' />
-            <h1>Clients we worked for</h1>
+            <h1><span className='gradient-text'>Clients</span> we worked for</h1>
             <div className='clients'>
                 <div className='companies'>
                     <span>
@@ -21,13 +21,7 @@ function Clients() {
                         Shastra
                     </span>
                     <span>
-                        Stake
-                    </span>
-                    <span>
                         BestUpay
-                    </span>
-                    <span>
-                        KR$NA
                     </span>
                     <span>
                         Gully Gang

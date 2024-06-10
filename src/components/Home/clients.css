@@ -24,6 +24,7 @@ canvas {
     align-items: center;
     text-align: center;
     flex-direction: column;
+    padding: 5rem 0;
 }
 
 #clients h1 {
@@ -36,6 +37,7 @@ canvas {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     max-width: 1024px;
 }
@@ -60,6 +62,12 @@ canvas {
 
 .client-texts {
     z-index: 2;
+}
+
+.gradient-text {
+    background: linear-gradient(93deg, #FF9898 0.48%, #8054FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .clients-num {
@@ -88,7 +96,7 @@ canvas {
 
 .companies {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
