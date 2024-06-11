@@ -49,10 +49,12 @@ nav a {
 .active {
     color: #ececec;
     font-weight: bold;
+    border-bottom: solid 2px #ececec;
 }
 
 .non-active {
     color: #ececec;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
