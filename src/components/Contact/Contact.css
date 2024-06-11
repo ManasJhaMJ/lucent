@@ -1,0 +1,37 @@
+#contact {
+    background: url('/src/assets/bg.png');
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #ececec;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#contact form input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
