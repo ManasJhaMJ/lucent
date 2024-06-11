@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5rem 0;
+    padding: 0;
 }
 
 .about-text {
@@ -40,6 +40,7 @@
     max-width: 600px;
     text-align: left;
     padding: 1rem;
+    margin-top: 5rem;
     margin-left: 1rem;
 }
 
@@ -69,6 +70,7 @@
     width: 40%;
     max-width: 600px;
     padding: 1rem;
+    margin-bottom: 4rem;
 }
 
 .about-img img {

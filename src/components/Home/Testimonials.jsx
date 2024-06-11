@@ -18,7 +18,7 @@ function Testimonials() {
                 pagination: true,
                 autoScroll: {
                     pauseOnHover: false,
-                    pauseOnFocus: true,
+                    pauseOnFocus: false,
                     rewind: false,
                     speed: 1,
                 }

@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -5,8 +7,13 @@ import upperhalf from '../../assets/secondhalf.png'
 import Globe from './Globe'
 import './clients.css'
 
-
 function Clients() {
+
+    const [reset, setReset] = useState(1);
+    const resetbtn = () => {
+        setReset(Math.random());
+    }
+
     return (
 
         <section id='clients'>
@@ -32,7 +39,7 @@ function Clients() {
 
                 </div>
                 <div className='globe-container'>
-                    <Globe />
+                    <Globe key={reset} />
                     <div className='client-texts'>
                         <div className='clients-num client-pos'>
                             <VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
@@ -54,6 +61,7 @@ function Clients() {
                         </div>
                     </div>
                 </div>
+                <button className='reset-button' onClick={resetbtn}>Click if whitespace</button>
             </div>
 
         </section>

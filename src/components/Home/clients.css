@@ -24,7 +24,8 @@ canvas {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 5rem 0;
+    padding: 0;
+    padding-top: 5rem;
 }
 
 #clients h1 {
@@ -121,6 +122,22 @@ canvas {
 .companies span:hover {
     color: #ececec;
     background: linear-gradient(93deg, #FF9898 0.48%, #8054FF 100%);
+}
+
+.reset-button {
+    background-color: #1a1616;
+    border: solid 1px #ececec;
+    border-radius: 10px;
+    color: #ececec;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.reset-button:active {
+    background-color: #11042f;
+    color: #ececec;
+    border: 2px solid #ececec;
 }
 
 @media only screen and (max-width: 770px) {
