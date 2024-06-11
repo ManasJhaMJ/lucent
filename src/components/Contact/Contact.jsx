@@ -4,11 +4,11 @@ function Contact() {
     return (
         <section id='contact'>
             <h1>FIll the below Form!</h1>
-            <form>
+            <form action='mailto:work4manasjha@gmail.com' method="post" encType="text/plain">
                 <input type='text' placeholder='Enter your name' />
                 <input type='email' placeholder='Enter your email' />
                 <textarea placeholder='Enter your message'></textarea>
-                <button>Submit</button>
+                <button type='submit'>Submit</button>
             </form>
         </section>
     )
