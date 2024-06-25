@@ -9,6 +9,7 @@ function Reviews({ title, desc, name, desg, stars }) {
             <p>
                 {desc}
             </p>
+            <hr />
             <div className='review-lower'>
                 <div>
                     <img src="https://i.pinimg.com/236x/44/b9/65/44b965ef15668cf3ec5d7888be48ec3a.jpg" alt="profile photo" />

@@ -78,6 +78,13 @@
     margin: 0 0.3rem;
 }
 
+.reviews hr {
+    width: 90%;
+    border: 0.5px solid #404047;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
 .splide__list li {
     width: 35% !important;
 }
